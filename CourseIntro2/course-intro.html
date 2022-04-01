@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- slick-slider -->
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    
+
+    <!--  -->
+    <!-- scss -->
+    <link rel="stylesheet" href="js/lib/pagination.css">
+    <link rel="stylesheet" href="../scss/css/app.css">
+    <link rel="stylesheet" href="./scss/css/app.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-container">
+                    <div class="header__logo">
+                        <img src="../img/header-logo.png" alt="logo">
+                    </div>
+                    <div class="header__nav">
+                        <ul class="menu">
+                            <li class="menu-item">
+                              <a href="#" class="menu-link">Tìm kiếm</a>
+                              <div class="line"></div>
+                            </li>
+                            <li class="menu-item ">
+                            <a href="#" class="menu-link">Về mentor</a>
+                            <div class="line active"></div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Đăng nhập để dạy</a>
+                                <div class="line"></div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Đăng nhập để học</a>
+                                <div class="line"></div>
+                            </li>
+                        </ul>
+                        <div class="menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <a class="header__btn">
+                            Đăng ký
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="breadcrumb">
+                <ul class="container">
+                    <li>Tim kiếm</li>
+                    <li>Khóa học</li>
+                    <li>Toiec 1: Toiec cấp tốc</li>
+                </ul>
+            </section>
+            <section class="main-content">
+                <div class="container">
+                    <div class="left-section">                        
+                        <div class="header">
+                            <div class="title">Toiec 1: Toeic cấp tốc</div>
+                            <div class="mentor">Giáo viên hướng dẫn: <span class="name">Nguyễn Hiền</span></div>
+                        </div>                        
+                        <div class="banner"></div>
+                        <div class="tab-section">
+                            <ul class="nav" id="myTab">
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="tab-intro" aria-current="page" href="#tab-intro-content">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="tab-request" href="#tab-request-content">Yêu cầu</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="tab-guide" href="#tab-guide-content">Hướng dẫn</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="tab-check" href="#tab-check-content" tabindex="-1" aria-disabled="true">Đánh giá</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab-memtor" href="#tab-mentor-content" tabindex="-1" aria-disabled="true">Giảng viên</a>
+                                  </li>
+                              </ul>
+                              <div class="tab-content">
+                                <div class="tab-pane fade show active" id="tab-intro-content" role="tabpanel" aria-labelledby="tab-intro">
+                                    <div class="sub__section">
+                                        <div class="sub__section-title">
+                                            Nội dung khóa TOIEC
+                                        </div>
+                                        <div class="sub__section-content">
+                                                Khóa học TOEIC 2 kỹ năng hướng dẫn bạn làm tốt bài thi TOEIC 2 kỹ năng gồm Listening (nghe) và Reading (đọc). Mỗi phần thi có 100 câu hỏi trắc nghiệm với tổng thời gian làm bài của 2 phần là 120 phút trong đó:
+
+                                                - Listening là 45 phút
+                                                - Reading là 75 phút
+
+                                                Thí sinh sẽ làm bài nghe trước rồi mới đến bài đọc với số điểm tối đa cho mỗi phần thi này là 495 điểm. Như vậy tổng điểm tối đa cho cả bài thi với 2 kỹ năng là 990 điểm. Điểm số TOEIC sẽ được tính dựa trên số câu đúng trong mỗi phần thi quy đổi thành số điểm tương ứng.
+
+                                        </div>
+                                    </div>
+                                    <div class="sub__section">
+                                        <div class="sub__section-title">
+                                            Bạn sẽ được 
+                                        </div>
+                                        <div class="sub__section-content">
+                                            <ul>
+                                                <li>Giới thiệu cấu trúc đề thi TOEIC mới</li>
+                                                <li>Ôn các điểm văn phạm quan trọng trong TOEIC</li>
+                                                <li>Ôn từ vựng hay gặp khi thi TOEIC</li>
+                                                <li>Ôn các dạng câu hỏi bài thi TOEIC</li>
+                                                <li>Bật mí các tuyệt chiêu, mẹo, bí quyết để đạt TOEIC điểm cao</li>
+                                                <li>Cung cấp một số tài liệu luyện TOEIC cập nhật mới nhất</li>
+                                                <li>Giảng viên trực tiếp giải đáp thắc mắc qua forum</li>
+                                            </ul>                                       
+
+                                        </div>
+                                    </div>
+                                    <div class="sub__section">
+                                        <div class="sub__section-title">
+                                            Lịch học
+                                        </div>
+                                        <div class="sub__section-content">
+                                            Lớp học được thiết kế để học viên có thể học và thực tập qua video hướng dẫn từ các học phần không bị giới hạn bởi khung thời gian và địa lý thông qua hệ thống MentorLinks.  
+                                            Ngoài ra học viên có thể tương tác trực tiếp với giảng viên để được giải đáp các thắc mắc thông qua forum.
+
+                                        </div>
+                                    </div>
+                                    <div class="sub__section">
+                                        <div class="sub__section-title">
+                                           Chính sách học phí
+                                        </div>
+                                        <div class="sub__section-content">
+                                            Z999k (Được hoàn trả 50% học phí nếu thi TOEIC nội bộ không đậu sau khi đã tham gia học 80% chương trình)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-request-content" role="tabpanel" aria-labelledby="tab-request">Yêu cầu</div>
+                                <div class="tab-pane fade" id="tab-guide-content" role="tabpanel" aria-labelledby="tab-guide">Hướng dẫn</div>
+                                <div class="tab-pane fade position-relative" id="tab-check-content" role="tabpanel" aria-labelledby="tab-check">
+                                    <div class="title-line">
+                                        <div class="text">Đánh giá & Nhận xét của Học viên</div>
+                                        <div class="action">
+                                            <div class="item">
+                                                <span class="acc-icon"></span>
+                                                <span class="number">200</span>
+                                                <span class="label">Học viên</span>
+                                                
+                                            </div>
+                                            <div class="item">
+                                                <span class="star-outline-icon"> </span>
+                                                <span class="number">189</span>
+                                                <span class="label">Đánh giá</span>
+                                                
+                                            </div>
+                                            <div class="item">
+                                                <span class="face-icon"></span>
+                                                <span class="number">98%</span>
+                                                <span class="label">Hài lòng</span>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-line">
+                                        <span class="text">Lọc xem theo:</span>
+                                        <span class="item active">Mới nhất</span>
+                                        <span class="item">5 sao</span>
+                                        <span class="item">4 sao</span>
+                                        <span class="item">3 sao</span>
+                                        <span class="item">2 sao</span>
+                                        <span class="item">1 sao</span>
+                                    </div>
+                                   <div class="review-show-section">
+                                       <div class="review-container" id="review-container"></div>
+                                       <div class="pagination-container" id="pagination-container"></div>
+                                   </div>
+                                    <div class="review-btn-wrap">
+                                        <button>
+                                            <img src="./img/prev.png" alt="">
+                                            Xem Hướng Dẫn</button>
+                                        <button>
+                                            Xem Giảng Viên
+                                            <img src="./img/next.png" alt="">
+                                        </button>
+                                            
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-mentor-content" role="tabpanel" aria-labelledby="tab-mentor">
+                                    <div class="mentor__info">
+                                        <div class="mentor__info-img">
+                                            <div class="mentor-img"></div>
+                                        </div>
+                                        <div class="mentor__info-extend">
+                                            <div class="first-line">
+                                                <span class="text">Top mentor</span>
+                                                <span class="rate">
+                                                    <span class="star-icon"></span>
+                                                    <span class="star-icon"></span>
+                                                    <span class="star-icon"></span>
+                                                    <span class="star-icon"></span>
+                                                    <span class="star-icon"></span>
+                                                </span>
+                                                <span class="score">5.0 (164 Đánh giá)</span>
+                                            </div>
+                                            <div class="mentor-name">Trương Nguyện Thành</div>
+                                            <div class="title-path">
+                                                <div>Giáo sư - Tiến Sĩ</div>
+                                                <div>Lĩnh vực GIÁO DỤC - SỨC KHỎE</div>
+                                            </div>
+                                            <div class="action">
+                                                <span class="send-msg-btn btn"><span class="msg-icon"></span>Gửi tin nhắn</span>
+                                                <span class="fb-icon"></span>
+                                                <span class="titwer-icon"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sub__section">
+                                        <div class="sub__section-title">
+                                            Giới thiệu bản thân
+                                        </div>
+                                        <div class="sub__section-content">
+                                            GSTS Trương Nguyện Thành là người sáng tạo môn thể dục Mind-Body KiDao đem lại nhiều hiệu quả tích cực đến sức khỏe tinh thần lẫn thể chất cho người tập.
+                                            GS Thành có nhiều năm kinh nghiệm sống và giảng dạy ở một đại học hàng đầu nước Mỹ và cũng có nhiều năm lãnh đạo các tổ chức giáo dục đại học và Viện nghiên cứu khoa học ở Việt Nam. Do đó, có khả năng phối hợp tinh hoa của hai văn hóa và kinh nghiệm phát triển tổ chức để giúp các tổ chức giáo dục ở Việt Nam phát triển hiệu quả và bền vững.
+                                        </div>
+                                    </div>
+                                    <div class="sub__section">
+                                        <div class="sub__section-title">
+                                            Kinh nghiệm làm việc
+                                        </div>
+                                        <div class="sub__section-content">
+                                            <div class="sub__extend">
+                                                <div class="sub__extend-title">
+                                                    Cố vấn cao cấp cho phát triển giáo dục (2020 - Hiện tại)
+                                                </div>
+                                                <div class="sub__extend-content">
+                                                    Cố vấn cao cấp cho phát triển giáo dục (2020 – Hiện tại)
+                                                    Cung cấp các dịch vụ tư vấn và đào tạo về phát triển và quản trị các tổ chức giáo dục từ đại học đến mầm non. Dịch vụ bao gồm đánh giá hoạt động của tổ chức, xây dựng chiến lược phát triển ngắn hạn và dài hạn, và tư vấn triển khai và đào tạo đội ngũ lãnh đạo. 
+                                                    Sáng lập và phát triển môn thể dục Mind-Body KiDao Trong thời gian cách ly do bị nhiễm Covid-19 vào tháng 4 năm 2020, GS Trương Nguyện Thành đã khởi đầu hành trình sáng tạo và phát triển môn thể dục Mind-Body KiDao. KiDao hiện đang nhận được sự quan tâm của nhiều người nhờ vào hiệu quả tích cực đến với sức khỏe thể chất lẫn tinh thần cho người tập cho dù chỉ một thời gian ngắn trải nghiệm.
+                                                </div>
+                                            </div>
+                                            <div class="sub__extend">
+                                                <div class="sub__extend-title">
+                                                    Lãnh đạo đại học (2017-2020)
+                                                </div>
+                                                <div class="sub__extend-content">
+                                                    <ul>
+                                                        <li>Phó Hiệu Trưởng Điều hành – Đại học Hoa Sen: Quốc tế hóa cơ cấu tổ chức, xây dựng văn hóa tổ chức, thành công trong xây dựng thương hiệu và chiến lược tuyển sinh.</li>
+                                                        <li>Phó Hiệu Trưởng – Đại học Văn Lang: Phát triển Chương trình đào tạo đặc biệt tích hợp triết lý giáo dục khai phóng vào CT đào tạo đại học của Việt Nam.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub__extend">
+                                                <div class="sub__extend-title">
+                                                    Lãnh đạo tổ chức nghiên cứu khoa học (2007-2016)
+                                                </div>
+                                                <div class="sub__extend-content">
+                                                    Viện Trưởng Khoa học – Viện Khoa Học và Công Nghệ Tính Toán, TP.HCM (Institute for Computational Science and Technology – ICST). Xây dựng chiến lược phát triển năng lực nghiên cứu cho ngành khoa học tính toán ở Việt Nam cũng như các cơ chế quản lý đặc thù mở ra cơ hội cho Viện phát triển và hợp tác với các khoa học gia Việt Kiều hiện đang làm việc ở nước ngoài.
+                                                </div>
+                                            </div>
+                                            <div class="sub__extend">
+                                                <div class="sub__extend-title">
+                                                    Giảng dạy Đại học Nghiên cứu khoa học (1992 - Hiện nay)
+                                                </div>
+                                                <div class="sub__extend-content">
+                                                    Giảng dạy trình độ đại học và cao học gần 30 năm tại Đai học Utah, Mỹ. -Tác giả của gần 200 bài báo NCKH quốc tế và đào tạo hơn 40 Thạc Sĩ, Tiến Sĩ, và hậu Tiến Sĩ. Một số hiện tại đang là GS ở các trường đại học danh tiếng trong đó có 4 PGS tại Việt Nam.
+                                                </div>
+                                            </div>
+                                            <div class="sub__extend">
+                                                <div class="sub__extend-title">                                                    
+                                                    Lĩnh vực đào tạo
+                                                </div>
+                                                <div class="sub__extend-content">
+                                                    Giáo dục, Sức khoẻ
+                                                </div>
+                                            </div>
+                                            <div class="sub__extend">
+                                                <div class="sub__extend-title">                                                    
+                                                    Đối tượng đào tạo
+                                                </div>
+                                                <div class="sub__extend-content">
+                                                    <div>Giáo dục: Đại học, Cao học</div>
+                                                    <div>Sức khoẻ: Thanh niên, Trung niên, Người lớn tuổi</div>
+                                                </div>
+                                            </div>
+                                            <div class="sub__extend">
+                                                <div class="sub__extend-title">                                                    
+                                                    Lĩnh vực chuyên môn
+                                                </div>
+                                                <div class="sub__extend-content">
+                                                    <div><div>Giáo dục:</div> <div>- Khoa học tự nhiên: Lý, Hóa</div></div>
+                                                    <div><div>Sức khoẻ:</div> <div>- KiDao</div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <div class="course__item-info">
+                            <div class="fee-info">
+                                <div class="sale-off-fee">
+                                    <span class="sale-off">50%</span>
+                                    <span class="fee">15,000,000</span>
+                                </div>
+                                <div class="fee-orginal">30,000,000</div>                                
+                            </div>
+                            <div class="course__item-btn register-btn ">Ghi danh</div>
+                            <div class="register-date">Hạn ghi danh còn: <span class="date">5 ngày 20 giờ</span></div>
+                            <div class="rate-line">
+                                <div class="text">Xếp hạng</div>
+                                <div class="rate">
+                                    <span class="star-icon"></span>
+                                    <span class="star-icon"></span>
+                                    <span class="star-icon"></span>
+                                    <span class="star-icon"></span>
+                                    <span class="star-icon"></span>
+                                </div>
+                                <div class="">4.0 (1023 đánh giá)</div>
+                            </div>
+                            <div class="number-trainee">
+                                Học viên đã học: 2000
+                            </div>
+                           <div class="tbl-toiec">
+                               <div class="header-toiec">
+                                   <div>Danh mục</div>
+                                   <div class="value"><span class="en">Tiếng Anh</span><span>Toiec</span></div>
+                               </div>
+                               <div class="content">
+                                   <div class="">Loại khóa học</div>
+                                   <div class="value">Tư vấn 1:1</div>
+                                   <div class="">Ngày khai giảng</div>
+                                   <div class="value">01/02/2022</div>
+                                   <div class="">Thời gian học</div>
+                                   <div class="value">1 tháng</div>
+                                   <div class="">Hình thức học</div>
+                                   <div class="value">online</div>
+                                   <div class="">Giới hạn học viên</div>
+                                   <div class="value">Không</div>
+                                   <div class="">Cấp độ</div>
+                                   <div class="value">Cơ bản</div>
+                                   <div class="">Cấp chứng chỉ</div>
+                                   <div class="value">Không</div>
+                               </div>
+                           </div>
+                           <div class="teacher-info">
+                               <div class="teacher-img-bg"><div class="teacher-img"></div></div>
+                               <div class="teacher-extend">
+                                   <div class="name">TEACHER’S NAME</div>
+                                   <div class="btn-group">
+                                       <span class="send-btn"><span class="send-icon"></span><span>Gửi tin</span></span>
+                                       <span class="view-info-btn"><span class="view-icon"></span><span>Xem thông tin</span></span>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="social-section">
+                                <div class="action-left">
+                                    <span class="text">Chia sẻ</span><span class="fb-icon"></span><span class="titwer-icon"></span>
+                                </div>
+                                <div class="action-right">
+                                    <span class="text">Lưu khóa học</span>
+                                    <span class="tim-icon"></span>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+            <section class="course">
+                <div class="container">
+                    <div class="course-container position-relative">
+                        <div class="section__heading">Khoá Học Liên Quan</div>
+                        <div class="course__list row" id="slider-1">
+                            <div class="course__item col-3">
+                                <div class="course__item-img">
+                                    <img src="./img/course.png" alt="">
+                                </div>
+                                <div class="course__item-header">
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color course__item-time__text">thời gian:</p>
+                                        <p class="sc-color course__item-time__text">1 tháng - từ 25/01/2022</p>
+                                    </div>
+                                    <div>
+                                        <img srcset="./img/heart.png 2x" alt="">
+                                    </div>
+                                </div>
+                                <div class="course__item-info">
+                                    <p class="course__item-type">
+                                        tư vấn 1:1 - bc0.1 - cơ bản
+                                    </p>
+                                    <h3 class="course__item-name">
+                                        Body Code 1 - Nền Tảng Kết Nối Cơ Thể
+                                    </h3>
+                                    <div class="course__item-coach">
+                                        <img srcset="./img/courseavt.png 2x" alt="">
+                                        <p>Hồ Ngô Hương Giang</p>
+                                    </div>
+                                    <p class="course__item-desc">
+                                        Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ...
+                                    </p>
+                                    <div class="course__item-rating">
+                                        <div class="course__item-rating__star">
+                                            <img src="./img/star.png" alt="">
+                                            <span>4 (1023)</span>
+                                        </div>
+                                        <div class="course__item-rating-number">
+
+                                            <img srcset="./img/number.png 2x" alt="">
+                                            <span>2000</span>
+                                        </div>
+                                    </div>
+                                    <p class="course__item-price mb-22">
+                                        300.000đ
+                                    </p>
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color">Hạn ghi danh còn:</p>
+                                        <p class="sc-color">5 ngày 20 giờ</p>
+                                    </div>
+                                    <a class="course__item-btn">
+                                        chọn học
+                                    </a>
+                                </div>
+                                <h3 class="course__item-category">sống khoẻ</h3>
+                            </div>
+                            <div class="course__item col-3">
+                                <div class="course__item-img">
+                                    <img src="./img/course.png" alt="">
+                                </div>
+                                <div class="course__item-header">
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color course__item-time__text">thời gian:</p>
+                                        <p class="sc-color course__item-time__text">1 tháng - từ 25/01/2022</p>
+                                    </div>
+                                    <div>
+                                        <img srcset="./img/heart.png 2x" alt="">
+                                    </div>
+                                </div>
+                                <div class="course__item-info">
+                                    <p class="course__item-type">
+                                        tư vấn 1:1 - bc0.1 - cơ bản
+                                    </p>
+                                    <h3 class="course__item-name">
+                                        Body Code 1 - Nền Tảng Kết Nối Cơ Thể
+                                    </h3>
+                                    <div class="course__item-coach">
+                                        <img srcset="./img/courseavt.png 2x" alt="">
+                                        <p>Hồ Ngô Hương Giang</p>
+                                    </div>
+                                    <p class="course__item-desc">
+                                        Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ...
+                                    </p>
+                                    <div class="course__item-rating">
+                                        <div class="course__item-rating__star">
+                                            <img src="./img/star.png" alt="">
+                                            <span>4 (1023)</span>
+                                        </div>
+                                        <div class="course__item-rating-number">
+
+                                            <img srcset="./img/number.png 2x" alt="">
+                                            <span>2000</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-22">
+                                        <div class="sale">-50%</div>
+                                        <p class="course__item-price ">
+                                            150.000 đ
+                                        </p>
+                                        <p class="course__item-old-price">300.000 đ</p>
+                                    </div>
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color">Hạn ghi danh còn:</p>
+                                        <p class="sc-color">5 ngày 20 giờ</p>
+                                    </div>
+                                    <a class="course__item-btn">
+                                        chọn học
+                                    </a>
+                                </div>
+                                <h3 class="course__item-category">sống khoẻ</h3>
+                            </div><div class="course__item col-3">
+                                <div class="course__item-img">
+                                    <img src="./img/course.png" alt="">
+                                </div>
+                                <div class="course__item-header">
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color course__item-time__text">thời gian:</p>
+                                        <p class="sc-color course__item-time__text">1 tháng - từ 25/01/2022</p>
+                                    </div>
+                                    <div>
+                                        <img srcset="./img/heart.png 2x" alt="">
+                                    </div>
+                                </div>
+                                <div class="course__item-info">
+                                    <p class="course__item-type">
+                                        tư vấn 1:1 - bc0.1 - cơ bản
+                                    </p>
+                                    <h3 class="course__item-name">
+                                        Body Code 1 - Nền Tảng Kết Nối Cơ Thể
+                                    </h3>
+                                    <div class="course__item-coach">
+                                        <img srcset="./img/courseavt.png 2x" alt="">
+                                        <p>Hồ Ngô Hương Giang</p>
+                                    </div>
+                                    <p class="course__item-desc">
+                                        Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ...
+                                    </p>
+                                    <div class="course__item-rating">
+                                        <div class="course__item-rating__star">
+                                            <img src="./img/star.png" alt="">
+                                            <span>4 (1023)</span>
+                                        </div>
+                                        <div class="course__item-rating-number">
+
+                                            <img srcset="./img/number.png 2x" alt="">
+                                            <span>2000</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-22">
+                                        <div class="sale">-100%</div>
+                                        <p class="course__item-price">
+                                            miễn phí
+                                        </p>
+                                        <p class="course__item-old-price">300.000 đ</p>
+                                    </div>
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color">Hạn ghi danh còn:</p>
+                                        <p class="sc-color">5 ngày 20 giờ</p>
+                                    </div>
+                                    <a class="course__item-btn">
+                                        chọn học
+                                    </a>
+                                </div>
+                                <h3 class="course__item-category">sống khoẻ</h3>
+                            </div><div class="course__item col-3">
+                                <div class="course__item-img">
+                                    <img src="./img/course.png" alt="">
+                                </div>
+                                <div class="course__item-header">
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color course__item-time__text">thời gian:</p>
+                                        <p class="sc-color course__item-time__text">1 tháng - từ 25/01/2022</p>
+                                    </div>
+                                    <div>
+                                        <img srcset="./img/heart.png 2x" alt="">
+                                    </div>
+                                </div>
+                                <div class="course__item-info">
+                                    <p class="course__item-type">
+                                        tư vấn 1:1 - bc0.1 - cơ bản
+                                    </p>
+                                    <h3 class="course__item-name">
+                                        Body Code 1 - Nền Tảng Kết Nối Cơ Thể
+                                    </h3>
+                                    <div class="course__item-coach">
+                                        <img srcset="./img/courseavt.png 2x" alt="">
+                                        <p>Hồ Ngô Hương Giang</p>
+                                    </div>
+                                    <p class="course__item-desc">
+                                        Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ...
+                                    </p>
+                                    <div class="course__item-rating">
+                                        <div class="course__item-rating__star">
+                                            <img src="./img/star.png" alt="">
+                                            <span>4 (1023)</span>
+                                        </div>
+                                        <div class="course__item-rating-number">
+
+                                            <img srcset="./img/number.png 2x" alt="">
+                                            <span>2000</span>
+                                        </div>
+                                    </div>
+                                    <p class="course__item-price mb-22">
+                                        300.000đ
+                                    </p>
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color">Hạn ghi danh còn:</p>
+                                        <p class="sc-color">5 ngày 20 giờ</p>
+                                    </div>
+                                    <a class="course__item-btn">
+                                        chọn học
+                                    </a>
+                                </div>
+                                <h3 class="course__item-category">sống khoẻ</h3>
+                            </div><div class="course__item col-3">
+                                <div class="course__item-img">
+                                    <img src="./img/course.png" alt="">
+                                </div>
+                                <div class="course__item-header">
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color course__item-time__text">thời gian:</p>
+                                        <p class="sc-color course__item-time__text">1 tháng - từ 25/01/2022</p>
+                                    </div>
+                                    <div>
+                                        <img srcset="./img/heart.png 2x" alt="">
+                                    </div>
+                                </div>
+                                <div class="course__item-info">
+                                    <p class="course__item-type">
+                                        tư vấn 1:1 - bc0.1 - cơ bản
+                                    </p>
+                                    <h3 class="course__item-name">
+                                        Body Code 1 - Nền Tảng Kết Nối Cơ Thể
+                                    </h3>
+                                    <div class="course__item-coach">
+                                        <img srcset="./img/courseavt.png 2x" alt="">
+                                        <p>Hồ Ngô Hương Giang</p>
+                                    </div>
+                                    <p class="course__item-desc">
+                                        Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ...
+                                    </p>
+                                    <div class="course__item-rating">
+                                        <div class="course__item-rating__star">
+                                            <img src="./img/star.png" alt="">
+                                            <span>4 (1023)</span>
+                                        </div>
+                                        <div class="course__item-rating-number">
+
+                                            <img srcset="./img/number.png 2x" alt="">
+                                            <span>2000</span>
+                                        </div>
+                                    </div>
+                                    <p class="course__item-price mb-22">
+                                        300.000đ
+                                    </p>
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color">Hạn ghi danh còn:</p>
+                                        <p class="sc-color">5 ngày 20 giờ</p>
+                                    </div>
+                                    <a class="course__item-btn">
+                                        chọn học
+                                    </a>
+                                </div>
+                                <h3 class="course__item-category">sống khoẻ</h3>
+                            </div>
+                            <div class="course__item col-3">
+                                <div class="course__item-img">
+                                    <img src="./img/course.png" alt="">
+                                </div>
+                                <div class="course__item-header">
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color course__item-time__text">thời gian:</p>
+                                        <p class="sc-color course__item-time__text">1 tháng - từ 25/01/2022</p>
+                                    </div>
+                                    <div>
+                                        <img srcset="./img/heart.png 2x" alt="">
+                                    </div>
+                                </div>
+                                <div class="course__item-info">
+                                    <p class="course__item-type">
+                                        tư vấn 1:1 - bc0.1 - cơ bản
+                                    </p>
+                                    <h3 class="course__item-name">
+                                        Body Code 1 - Nền Tảng Kết Nối Cơ Thể
+                                    </h3>
+                                    <div class="course__item-coach">
+                                        <img srcset="./img/courseavt.png 2x" alt="">
+                                        <p>Hồ Ngô Hương Giang</p>
+                                    </div>
+                                    <p class="course__item-desc">
+                                        Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ...
+                                    </p>
+                                    <div class="course__item-rating">
+                                        <div class="course__item-rating__star">
+                                            <img src="./img/star.png" alt="">
+                                            <span>4 (1023)</span>
+                                        </div>
+                                        <div class="course__item-rating-number">
+
+                                            <img srcset="./img/number.png 2x" alt="">
+                                            <span>2000</span>
+                                        </div>
+                                    </div>
+                                    <p class="course__item-price mb-22">
+                                        300.000đ
+                                    </p>
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color">Hạn ghi danh còn:</p>
+                                        <p class="sc-color">5 ngày 20 giờ</p>
+                                    </div>
+                                    <a class="course__item-btn">
+                                        chọn học
+                                    </a>
+                                </div>
+                                <h3 class="course__item-category">sống khoẻ</h3>
+                            </div>
+                            <div class="course__item col-3">
+                                <div class="course__item-img">
+                                    <img src="./img/course.png" alt="">
+                                </div>
+                                <div class="course__item-header">
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color course__item-time__text">thời gian:</p>
+                                        <p class="sc-color course__item-time__text">1 tháng - từ 25/01/2022</p>
+                                    </div>
+                                    <div>
+                                        <img srcset="./img/heart.png 2x" alt="">
+                                    </div>
+                                </div>
+                                <div class="course__item-info">
+                                    <p class="course__item-type">
+                                        tư vấn 1:1 - bc0.1 - cơ bản
+                                    </p>
+                                    <h3 class="course__item-name">
+                                        Body Code 1 - Nền Tảng Kết Nối Cơ Thể
+                                    </h3>
+                                    <div class="course__item-coach">
+                                        <img srcset="./img/courseavt.png 2x" alt="">
+                                        <p>Hồ Ngô Hương Giang</p>
+                                    </div>
+                                    <p class="course__item-desc">
+                                        Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ...
+                                    </p>
+                                    <div class="course__item-rating">
+                                        <div class="course__item-rating__star">
+                                            <img src="./img/star.png" alt="">
+                                            <span>4 (1023)</span>
+                                        </div>
+                                        <div class="course__item-rating-number">
+
+                                            <img srcset="./img/number.png 2x" alt="">
+                                            <span>2000</span>
+                                        </div>
+                                    </div>
+                                    <p class="course__item-price mb-22">
+                                        300.000đ
+                                    </p>
+                                    <div class="course__item-countdown">
+                                        <p class="primary-color">Hạn ghi danh còn:</p>
+                                        <p class="sc-color">5 ngày 20 giờ</p>
+                                    </div>
+                                    <a class="course__item-btn">
+                                        chọn học
+                                    </a>
+                                </div>
+                                <h3 class="course__item-category">sống khoẻ</h3>
+                            </div>
+                        </div>
+                        <div class="course-btn">
+                            Khám Phá Thêm
+                            <span>></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer__logo">
+                        <img src="../img/header-logo.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at eleifend elit ornare ut.</p>
+                    </div>
+                    <div class="footer__link-wrap">
+                        <ul class="footer__links">
+                            <h3>Company</h3>
+                            <li>Mentor Links</li>
+                            <li>Chính Sách</li>
+                            <li>Đội Ngũ</li>
+                            <li>Cộng Đồng</li>
+                        </ul>
+                        <ul class="footer__links">
+                            <h3>Mentor</h3>
+                            <li>Hướng Dẫn</li>
+                            <li>Chính Sách</li>
+                            <li>Best Seller</li>
+                            <li>Tài liệu</li>
+                        </ul>
+                        <ul class="footer__links">
+                            <h3>Mentee</h3>
+                            <li>Hướng Dẫn</li>
+                            <li>Chính Sách</li>
+                            <li>Best Learners</li>
+                            <li>Top Project</li>
+                        </ul>
+                        <ul class="footer__links">
+                            <h3>Hỗ Trợ</h3>
+                            <li>Liên Hệ</li>
+                            <li>FAQs</li>
+                            <li>Live Chat</li>
+                            
+                        </ul>
+                    </div>
+                    <ul class="footer__links">
+                        <h3>Get Connect</h3>
+                        <li>
+                            <img srcset="./img/tw.png 2x" alt="">
+                            <span>Twitter</span></li>
+                        <li>
+                            <img srcset="./img/fb.png 2x" alt="">
+                            <span>Facebook</span></li>
+                        <li>
+                            <img srcset="./img/db.png 2x" alt="">
+                            <span>Dribble</span></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="copywrite">
+                <div>
+                    <p>Copyright © 2018 Grada. All rights reserved.</p>
+                </div>
+                <div>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./js/lib/pagination.js"></script>
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>

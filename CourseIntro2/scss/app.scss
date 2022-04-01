@@ -1,0 +1,102 @@
+@import "variables";
+@import "intro";
+@import "breadcrumb";
+@import "main-content";
+@import "course";
+@import "platform";
+@import "partner";
+@import "cta";
+@import "footer";
+
+body {
+  color: $text-color;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #f8f8f8;
+}
+
+.btn {
+  background: linear-gradient(
+    277.43deg,
+    #7dffd3 0.52%,
+    #29ccd6 20.82%,
+    #150099 99.87%
+  );
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 7px 0;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.star-icon {
+  background: url(../../img/star.svg);
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  display: inline-block;
+  color: #f2c94c;
+}
+
+.fb-icon {
+  background: url(../../img/fb.svg);
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  display: inline-block;
+  margin-left: 12px;
+}
+.titwer-icon {
+  background: url(../../img/titwer.svg);
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.tim-icon {
+  background: url(../../img/tim.svg);
+  width: 20px;
+  height: 18px;
+  background-size: 20px 18px;
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.acc-icon {
+  background: url(../../img/acc.svg);
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  display: inline-block;
+}
+.face-icon {
+  background: url(../../img/face.svg);
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  display: inline-block;
+}
+
+.star-outline-icon {
+  background: url(../../img/star-outline.svg);
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  display: inline-block;
+}
+
+.check-icon {
+  background: url(../../img/check.svg);
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+  display: inline-block;
+}
